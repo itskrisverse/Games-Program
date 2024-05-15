@@ -7,7 +7,8 @@ char getUserChoice () {
 
     char player ;
 
-    do {cout<<"Rock Paper and Scissors game!\n";
+    do {
+    cout<<"Rock Paper and Scissors game!\n";
     cout<<"Choose one of the following:\n ";
     cout<<"*****************************\n";
     cout<< "'r' for Rock\n";
