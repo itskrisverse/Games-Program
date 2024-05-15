@@ -42,7 +42,6 @@ char ShowChoice (char choice) {
                break;
     case 's' : cout<<"Scissors\n";
                break;
-    default : "Invalid choice!";
     }
 
 return 0;
@@ -52,33 +51,35 @@ char chooseWinner (char player , char computer ) {
     switch (player)
     {
     case 'r' : if (computer == 'r'){
-                 cout<<"It's a tie!";
+                 cout<<"It's a tie!\n";
                 }
                 else if (computer == 'p'){
-                cout<<"You lose!";
+                cout<<"You lose!\n";
                 }
                 else {
-                    cout<<"You win!";
+                    cout<<"You win!\n";
                 }
+                break;
     case 'p' : if (computer == 'r'){
-                 cout<<"You win!";
+                 cout<<"You win!\n";
                 }
                 else if (computer == 'p'){
-                cout<<"It's a tie!";
+                cout<<"It's a tie!\n";
                 }
                 else {
-                    cout<<"You lose!";
+                    cout<<"You lose!\n";
                 }
+                break;
     case 's' : if (computer == 'r'){
-                 cout<<"You lose!";
+                 cout<<"You lose!\n";
                 }
                 else if (computer == 'p'){
-                cout<<"You win!";
+                cout<<"You win!\n";
                 }
                 else {
-                    cout<<"It's a tie!";
+                    cout<<"It's a tie!\n";
                 }
-    default : "Invalid choice!";
+                break;
     }
 return 0;  
 }
