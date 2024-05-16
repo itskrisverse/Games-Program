@@ -17,6 +17,9 @@ int main () {
         cin >> guess;
         tries++;
 
+        cin.clear();
+        fflush(stdin);
+
         if( guess > num ) {
             cout << "Too high!\n";
         }

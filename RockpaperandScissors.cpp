@@ -15,6 +15,10 @@ char getUserChoice () {
     cout<< "'p' for Paper\n";
     cout<< "'s' for Scissors\n";
     cin>> player;
+
+    cin.clear();
+    fflush(stdin);
+    
     }
     while (player == 'r' && player == 'p' && player == 's');
 
