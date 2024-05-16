@@ -34,7 +34,7 @@ char getComputerChoice () {
 
 return 0; 
 }
-char ShowChoice (char choice) {
+void ShowChoice (char choice) {
 
     switch (choice){
     case 'r' : cout<<"Rock\n";
@@ -45,9 +45,8 @@ char ShowChoice (char choice) {
                break;
     }
 
-return 0;
 }
-char chooseWinner (char player , char computer ) {
+void chooseWinner (char player , char computer ) {
 
     switch (player)
     {
@@ -82,7 +81,6 @@ char chooseWinner (char player , char computer ) {
                 }
                 break;
     }
-return 0;  
 }
 
 int main () {
